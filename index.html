@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Link to Stylesheets -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- Title of the Document -->
+    <title>Desafío Condicionales - DL</title>
+</head>
+
+<body>
+    <div id="root">
+        <section class="exercise ex1">
+            <h1>Ejercicio 1</h1>
+            <div class="imagen">
+                <img src="./assets/img/JavaScript-logo.png" id="img">
+            </div>
+        </section>
+
+
+        <section class="exercise ex2">
+            <h1>Ejercicio 2</h1>
+            <p>Puedes llevar hasta 10 stickers en total</p>
+            <form class="sticker-container">
+                <div class="sticker-items">
+                    <div class="sticker-item">
+                        <label for="octocat">
+                            <div class="image-container">
+                                <img src="./assets/img/github-octocat-logo.png" alt="github-octocat">
+                            </div>
+                        </label>
+                        <input type="number" id="sticker1" value="0" min="0">
+                    </div>
+
+                    <div class="sticker-item">
+                        <label for="slack">
+                            <div class="image-container">
+                                <img src="./assets/img/Slack_icon_2019.svg.png" alt="slack">
+                            </div>
+                        </label>
+                        <input type="number" id="sticker2" value="0" min="0">
+                    </div>
+
+                    <div class="sticker-item">
+                        <label for="git">
+                            <div class="image-container">
+                                <img src="./assets/img/git.png" alt="git">
+                            </div>
+                        </label>
+                        <input type="number" id="sticker3" value="0" min="0">
+                    </div>
+                </div>
+
+                <p class="verify-message"><span id="alert-message"></span></p>
+                <input type="button" value="Verificar" id="verify" class="verify-message">
+            </form>
+        </section>
+
+        <section class="exercise ex3">
+            <h1>Ejercicio 3</h1>
+            <label for="password" class="label">Ingresa el password</label>
+            <div class="select-container">
+                <select name="key1" class="pass">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="key2" class="pass">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="key3" class="pass">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <button>Ingresar</button>
+
+            <p id="result-message"></p>
+        </section>
+
+
+
+    </div>
+
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
